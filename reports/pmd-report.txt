@@ -1,0 +1,640 @@
+src/main/java/com/chatter/ChatterApp.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/ChatterApp.java:9:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/chatter/ChatterApp.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/ChatterApp.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/chatter/chat/config/WebSocketConfig.java:11:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/chat/config/WebSocketConfig.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/chat/config/WebSocketConfig.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'registry' is not assigned and could be declared final
+src/main/java/com/chatter/chat/config/WebSocketConfig.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'registry' is not assigned and could be declared final
+src/main/java/com/chatter/controller/ChatController.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/controller/ChatController.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/controller/ChatController.java:14:	LongVariable:	LongVariable: Avoid excessively long variable names like simpMessagingTemplate
+src/main/java/com/chatter/controller/ChatController.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/ChatController.java:16:	LongVariable:	LongVariable: Avoid excessively long variable names like simpMessagingTemplate
+src/main/java/com/chatter/controller/ChatController.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'simpMessagingTemplate' is not assigned and could be declared final
+src/main/java/com/chatter/controller/ChatController.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/ChatController.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/chatter/controller/ChatController.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/ChatController.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/chatter/controller/ChatController.java:29:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/com/chatter/controller/CommentController.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.http.HttpStatus'
+src/main/java/com/chatter/controller/CommentController.java:25:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/controller/CommentController.java:25:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/controller/CommentController.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/controller/CommentController.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/CommentController.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'commentDTO' is not assigned and could be declared final
+src/main/java/com/chatter/controller/CommentController.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'savedComment' could be declared final
+src/main/java/com/chatter/controller/CommentController.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/CommentController.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetId' is not assigned and could be declared final
+src/main/java/com/chatter/controller/CommentController.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'comments' could be declared final
+src/main/java/com/chatter/controller/CommentController.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/CommentController.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetId' is not assigned and could be declared final
+src/main/java/com/chatter/controller/CommentController.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'commentId' is not assigned and could be declared final
+src/main/java/com/chatter/controller/CommentController.java:49:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/chatter/controller/TweetController.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/controller/TweetController.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/controller/TweetController.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/controller/TweetController.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/TweetController.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'commentdto' is not assigned and could be declared final
+src/main/java/com/chatter/controller/TweetController.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetId' is not assigned and could be declared final
+src/main/java/com/chatter/controller/TweetController.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'savedComment' could be declared final
+src/main/java/com/chatter/controller/TweetController.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/TweetController.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweet' is not assigned and could be declared final
+src/main/java/com/chatter/controller/TweetController.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'savedTweet' could be declared final
+src/main/java/com/chatter/controller/TweetController.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/TweetController.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/chatter/controller/TweetController.java:40:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/controller/TweetController.java:48:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/TweetController.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/chatter/controller/TweetController.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetdto' is not assigned and could be declared final
+src/main/java/com/chatter/controller/TweetController.java:48:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/controller/TweetController.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedTweet' could be declared final
+src/main/java/com/chatter/controller/TweetController.java:54:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/TweetController.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/chatter/controller/TweetController.java:54:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/controller/TweetController.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweet' could be declared final
+src/main/java/com/chatter/controller/TweetController.java:60:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/TweetController.java:61:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweets' could be declared final
+src/main/java/com/chatter/controller/TweetController.java:68:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/UserController.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.hibernate.WrongClassException'
+src/main/java/com/chatter/controller/UserController.java:19:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.web.bind.annotation.RequestParam'
+src/main/java/com/chatter/controller/UserController.java:36:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/controller/UserController.java:36:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/controller/UserController.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/controller/UserController.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/UserController.java:43:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/chatter/controller/UserController.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'usr' could be declared final
+src/main/java/com/chatter/controller/UserController.java:49:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/UserController.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/chatter/controller/UserController.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'usr' could be declared final
+src/main/java/com/chatter/controller/UserController.java:51:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(usr ,HttpStatus.OK)`
+src/main/java/com/chatter/controller/UserController.java:55:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/UserController.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userEmailId' is not assigned and could be declared final
+src/main/java/com/chatter/controller/UserController.java:56:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'usr' could be declared final
+src/main/java/com/chatter/controller/UserController.java:57:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(usr,HttpStatus.OK)`
+src/main/java/com/chatter/controller/UserController.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/UserController.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'emailId' is not assigned and could be declared final
+src/main/java/com/chatter/controller/UserController.java:62:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/main/java/com/chatter/controller/UserController.java:63:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(message,HttpStatus.OK)`
+src/main/java/com/chatter/controller/UserController.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/UserController.java:67:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/chatter/controller/UserController.java:68:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'usr' could be declared final
+src/main/java/com/chatter/controller/UserController.java:69:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(usr,HttpStatus.OK)`
+src/main/java/com/chatter/controller/UserController.java:73:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/controller/UserController.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/chatter/controller/UserController.java:75:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(user,HttpStatus.OK)`
+src/main/java/com/chatter/dto/CommentDTO.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.Column'
+src/main/java/com/chatter/dto/CommentDTO.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.ManyToOne'
+src/main/java/com/chatter/dto/CommentDTO.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'lombok.AllArgsConstructor'
+src/main/java/com/chatter/dto/CommentDTO.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/dto/CommentDTO.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/CommentDTO.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/CommentDTO.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/CommentDTO.java:26:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/dto/CommentDTO.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/CommentDTO.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/CommentDTO.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/dto/CommentDTO.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'content' is not assigned and could be declared final
+src/main/java/com/chatter/dto/CommentDTO.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/chatter/dto/CommentDTO.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetId' is not assigned and could be declared final
+src/main/java/com/chatter/dto/CommentDTO.java:32:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/dto/CommentDTO.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/dto/CommentDTO.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'comment' is not assigned and could be declared final
+src/main/java/com/chatter/dto/CommentDTO.java:42:	LawOfDemeter:	LawOfDemeter: Call to `getTweet` on foreign value `comment` (degree 1)
+src/main/java/com/chatter/dto/TweetDTO.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.ArrayList'
+src/main/java/com/chatter/dto/TweetDTO.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.Base64'
+src/main/java/com/chatter/dto/TweetDTO.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.web.multipart.MultipartFile'
+src/main/java/com/chatter/dto/TweetDTO.java:11:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.chatter.entity.Comment'
+src/main/java/com/chatter/dto/TweetDTO.java:20:	UnnecessaryImport:	UnnecessaryImport: Unused import 'lombok.extern.java.Log'
+src/main/java/com/chatter/dto/TweetDTO.java:29:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/dto/TweetDTO.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/TweetDTO.java:30:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/dto/TweetDTO.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/TweetDTO.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/TweetDTO.java:34:	UnnecessarySemicolon:	UnnecessarySemicolon: Unnecessary semicolon
+src/main/java/com/chatter/dto/TweetDTO.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/TweetDTO.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/TweetDTO.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/TweetDTO.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/dto/TweetDTO.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweet' is not assigned and could be declared final
+src/main/java/com/chatter/dto/UserDTO.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/dto/UserDTO.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/UserDTO.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/UserDTO.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/UserDTO.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/UserDTO.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/UserDTO.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/dto/UserDTO.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/chatter/dto/UserLoginDTO.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.validation.constraints.NotBlank'
+src/main/java/com/chatter/dto/UserLoginDTO.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/dto/UserLoginDTO.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/UserLoginDTO.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/dto/UserLoginDTO.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/dto/UserLoginDTO.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userLoginDTO' is not assigned and could be declared final
+src/main/java/com/chatter/entity/Comment.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.Column'
+src/main/java/com/chatter/entity/Comment.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/entity/Comment.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Comment.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/entity/Comment.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Comment.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Comment.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Comment.java:39:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/entity/Comment.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'commentdto' is not assigned and could be declared final
+src/main/java/com/chatter/entity/Comment.java:44:	LawOfDemeter:	LawOfDemeter: Call to `getTweet` on foreign value `commentdto` (degree 1)
+src/main/java/com/chatter/entity/Message.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/entity/Message.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Message.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Message.java:16:	AvoidFieldNameMatchingTypeName:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/com/chatter/entity/Message.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Message.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Message.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Message.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/entity/Message.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/chatter/entity/Status.java:3:	CommentRequired:	CommentRequired: Enum comments are required
+src/main/java/com/chatter/entity/Tweet.java:5:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.Objects'
+src/main/java/com/chatter/entity/Tweet.java:12:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.ManyToOne'
+src/main/java/com/chatter/entity/Tweet.java:35:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/entity/Tweet.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Tweet.java:39:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/entity/Tweet.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Tweet.java:43:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Tweet.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Tweet.java:48:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/Tweet.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/entity/Tweet.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'comment' is not assigned and could be declared final
+src/main/java/com/chatter/entity/Tweet.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/entity/Tweet.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetdto' is not assigned and could be declared final
+src/main/java/com/chatter/entity/User.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.HashSet'
+src/main/java/com/chatter/entity/User.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.Set'
+src/main/java/com/chatter/entity/User.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.GenerationType'
+src/main/java/com/chatter/entity/User.java:10:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.OneToMany'
+src/main/java/com/chatter/entity/User.java:11:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.persistence.OneToOne'
+src/main/java/com/chatter/entity/User.java:18:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.hibernate.annotations.Cascade'
+src/main/java/com/chatter/entity/User.java:19:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.hibernate.annotations.CascadeType'
+src/main/java/com/chatter/entity/User.java:20:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.hibernate.annotations.LazyCollection'
+src/main/java/com/chatter/entity/User.java:21:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.hibernate.annotations.LazyCollectionOption'
+src/main/java/com/chatter/entity/User.java:22:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.lang.NonNull'
+src/main/java/com/chatter/entity/User.java:26:	UnnecessaryImport:	UnnecessaryImport: Unused import 'lombok.AllArgsConstructor'
+src/main/java/com/chatter/entity/User.java:31:	UnnecessaryImport:	UnnecessaryImport: Unused import 'lombok.ToString'
+src/main/java/com/chatter/entity/User.java:40:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/entity/User.java:40:	ShortClassName:	ShortClassName: Avoid short class names like User
+src/main/java/com/chatter/entity/User.java:44:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/User.java:47:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/User.java:50:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/User.java:53:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/User.java:56:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/entity/User.java:58:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/entity/User.java:58:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userEmailId' is not assigned and could be declared final
+src/main/java/com/chatter/entity/User.java:58:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userName' is not assigned and could be declared final
+src/main/java/com/chatter/entity/User.java:59:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userPhoneNo' is not assigned and could be declared final
+src/main/java/com/chatter/entity/User.java:60:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userPassword' is not assigned and could be declared final
+src/main/java/com/chatter/entity/User.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/entity/User.java:67:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userdto' is not assigned and could be declared final
+src/main/java/com/chatter/exception/CommentNotFoundException.java:2:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exception/CommentNotFoundException.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exception/CommentNotFoundException.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/chatter/exception/DuplicateUserFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exception/DuplicateUserFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/chatter/exception/DuplicateUserFoundException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exception/DuplicateUserFoundException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/chatter/exception/NoUserFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exception/NoUserFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/chatter/exception/NoUserFoundException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exception/NoUserFoundException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/chatter/exception/TweetNotFoundException.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.http.HttpStatus'
+src/main/java/com/chatter/exception/TweetNotFoundException.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.web.bind.annotation.ResponseStatus'
+src/main/java/com/chatter/exception/TweetNotFoundException.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exception/TweetNotFoundException.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exception/TweetNotFoundException.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/chatter/exception/UserNotFoundException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exception/UserNotFoundException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/chatter/exception/UserNotFoundException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exception/UserNotFoundException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/chatter/exception/WrongPasswordException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exception/WrongPasswordException.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exception/WrongPasswordException.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:15:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.chatter.exception.TweetNotFoundException'
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:21:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:23:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(...)`
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:30:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:30:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fieldName' could be declared final
+src/main/java/com/chatter/exceptionalhandling/CommentNotFoundExceptionHandling.java:33:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errorMsg' could be declared final
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:24:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:26:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(...)`
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:31:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:32:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:32:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fieldName' could be declared final
+src/main/java/com/chatter/exceptionalhandling/DuplicateUserFoundExceptionHandler.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errorMsg' could be declared final
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:24:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:26:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(...)`
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:31:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:32:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:32:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fieldName' could be declared final
+src/main/java/com/chatter/exceptionalhandling/NoUserFoundExceptionHandler.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errorMsg' could be declared final
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:17:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:17:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:20:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:22:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(...)`
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:28:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:28:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:29:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:29:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fieldName' could be declared final
+src/main/java/com/chatter/exceptionalhandling/TweetNotFoundExceptionalHandling.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errorMsg' could be declared final
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:21:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:24:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:26:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(...)`
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:31:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:32:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:32:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fieldName' could be declared final
+src/main/java/com/chatter/exceptionalhandling/UserNotFoundExceptionHandler.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errorMsg' could be declared final
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:20:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:20:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:23:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:25:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(...)`
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:30:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:31:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:31:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:33:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fieldName' could be declared final
+src/main/java/com/chatter/exceptionalhandling/WrongPasswordExceptionHandler.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errorMsg' could be declared final
+src/main/java/com/chatter/repository/CommentRepository.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/repository/CommentRepository.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/repository/CommentRepository.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/repository/TweetRepository.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.chatter.dto.TweetDTO'
+src/main/java/com/chatter/repository/TweetRepository.java:10:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/repository/UserRepository.java:10:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/repository/UserRepository.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/CommentService.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.validation.Valid'
+src/main/java/com/chatter/services/CommentService.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.chatter.dto.UserDTO'
+src/main/java/com/chatter/services/CommentService.java:10:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.chatter.entity.Comment'
+src/main/java/com/chatter/services/CommentService.java:11:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.chatter.entity.User'
+src/main/java/com/chatter/services/CommentService.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/services/CommentService.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/CommentService.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/CommentService.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/CommentServiceImpl.java:19:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/services/CommentServiceImpl.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/services/CommentServiceImpl.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/services/CommentServiceImpl.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/services/CommentServiceImpl.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'commentDTO' is not assigned and could be declared final
+src/main/java/com/chatter/services/CommentServiceImpl.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweet' could be declared final
+src/main/java/com/chatter/services/CommentServiceImpl.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'comment' could be declared final
+src/main/java/com/chatter/services/CommentServiceImpl.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'savedComment' could be declared final
+src/main/java/com/chatter/services/CommentServiceImpl.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetId' is not assigned and could be declared final
+src/main/java/com/chatter/services/CommentServiceImpl.java:41:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'comments' could be declared final
+src/main/java/com/chatter/services/CommentServiceImpl.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'commentId' is not assigned and could be declared final
+src/main/java/com/chatter/services/CommentServiceImpl.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetId' is not assigned and could be declared final
+src/main/java/com/chatter/services/CommentServiceImpl.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'comment' could be declared final
+src/main/java/com/chatter/services/CommentServiceImpl.java:49:	LawOfDemeter:	LawOfDemeter: Call to `getTweet` on foreign value `comment.get()` (degree 1)
+src/main/java/com/chatter/services/TweetService.java:12:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.validation.Valid'
+src/main/java/com/chatter/services/TweetService.java:14:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.web.multipart.MultipartFile'
+src/main/java/com/chatter/services/TweetService.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/services/TweetService.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/TweetService.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/TweetService.java:21:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/services/TweetService.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/TweetService.java:23:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/services/TweetService.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/TweetService.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/TweetService.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/TweetService.java:29:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/services/TweetService.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/TweetService.java:31:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/services/TweetServiceImpl.java:16:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.springframework.web.multipart.MultipartFile'
+src/main/java/com/chatter/services/TweetServiceImpl.java:18:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.io.IOException'
+src/main/java/com/chatter/services/TweetServiceImpl.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/services/TweetServiceImpl.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/services/TweetServiceImpl.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/services/TweetServiceImpl.java:28:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'commentRepository'
+src/main/java/com/chatter/services/TweetServiceImpl.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/services/TweetServiceImpl.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'commentdto' is not assigned and could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetId' is not assigned and could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweet' could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'comt' could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'savedComment' could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetdto' is not assigned and could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweet' could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:54:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/services/TweetServiceImpl.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'found' could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetdto' is not assigned and could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:66:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/chatter/services/TweetServiceImpl.java:67:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'twt' could be declared final
+src/main/java/com/chatter/services/TweetServiceImpl.java:79:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetId' is not assigned and could be declared final
+src/main/java/com/chatter/services/UserService.java:14:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/services/UserService.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/UserService.java:16:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'registerUser': the method is declared in an interface type
+src/main/java/com/chatter/services/UserService.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/UserService.java:17:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getUserByEmailId': the method is declared in an interface type
+src/main/java/com/chatter/services/UserService.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/UserService.java:18:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'deleteUserByEmailId': the method is declared in an interface type
+src/main/java/com/chatter/services/UserService.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/UserService.java:19:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'updateUserByEmailId': the method is declared in an interface type
+src/main/java/com/chatter/services/UserService.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/UserService.java:20:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAllUsers': the method is declared in an interface type
+src/main/java/com/chatter/services/UserService.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/chatter/services/UserService.java:23:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'login': the method is declared in an interface type
+src/main/java/com/chatter/services/UserServiceImpl.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.ArrayList'
+src/main/java/com/chatter/services/UserServiceImpl.java:10:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.validation.Valid'
+src/main/java/com/chatter/services/UserServiceImpl.java:28:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/chatter/services/UserServiceImpl.java:28:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/chatter/services/UserServiceImpl.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/services/UserServiceImpl.java:30:	ImmutableField:	ImmutableField: Field 'setOfEmailIds' may be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:33:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/services/UserServiceImpl.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/chatter/services/UserServiceImpl.java:37:	ImmutableField:	ImmutableField: Field 'userNotFound' may be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:41:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:42:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/chatter/services/UserServiceImpl.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:45:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/chatter/services/UserServiceImpl.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'usr' could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:53:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/chatter/services/UserServiceImpl.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:56:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/chatter/services/UserServiceImpl.java:57:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'usr' could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:59:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/chatter/services/UserServiceImpl.java:64:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userEmail' is not assigned and could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:65:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:67:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/chatter/services/UserServiceImpl.java:72:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'userEmail' is not assigned and could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:73:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:75:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/chatter/services/UserServiceImpl.java:81:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:82:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'usr' could be declared final
+src/main/java/com/chatter/services/UserServiceImpl.java:84:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/test/java/com/chatter/entity/CommentTest.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused static import 'org.junit.jupiter.api.Assertions.assertThrows'
+src/test/java/com/chatter/entity/CommentTest.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/chatter/entity/CommentTest.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/chatter/entity/CommentTest.java:23:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/CommentTest.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/chatter/entity/CommentTest.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/chatter/entity/CommentTest.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/CommentTest.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/CommentTest.java:37:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/CommentTest.java:37:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/CommentTest.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'commentDTO' could be declared final
+src/test/java/com/chatter/entity/CommentTest.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'savedCommentDTO' could be declared final
+src/test/java/com/chatter/entity/CommentTest.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/CommentTest.java:55:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/CommentTest.java:56:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/CommentTest.java:60:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/CommentTest.java:60:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/CommentTest.java:60:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/CommentTest.java:62:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'commentDTOList' could be declared final
+src/test/java/com/chatter/entity/CommentTest.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'commentDTO1' could be declared final
+src/test/java/com/chatter/entity/CommentTest.java:68:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'commentDTO2' could be declared final
+src/test/java/com/chatter/entity/CommentTest.java:76:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/CommentTest.java:78:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/CommentTest.java:79:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/CommentTest.java:81:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/CommentTest.java:82:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/CommentTest.java:87:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/CommentTest.java:87:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/CommentTest.java:87:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/CommentTest.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/CommentTest.java:95:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/CommentTest.java:96:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/CommentTest.java:100:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/CommentTest.java:100:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/CommentTest.java:100:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testDeleteComment_CommentNotFoundException' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/chatter/entity/CommentTest.java:105:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/CommentTest.java:107:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/MessageTest.java:8:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.mockito.ArgumentCaptor'
+src/test/java/com/chatter/entity/MessageTest.java:11:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.mockito.junit.jupiter.MockitoExtension'
+src/test/java/com/chatter/entity/MessageTest.java:15:	UnnecessaryImport:	UnnecessaryImport: Unused import 'org.junit.jupiter.api.extension.ExtendWith'
+src/test/java/com/chatter/entity/MessageTest.java:16:	UnnecessaryImport:	UnnecessaryImport: Duplicate import 'org.junit.jupiter.api.Assertions.assertEquals'
+src/test/java/com/chatter/entity/MessageTest.java:17:	UnnecessaryImport:	UnnecessaryImport: Duplicate import 'org.mockito.Mockito.*'
+src/test/java/com/chatter/entity/MessageTest.java:20:	UnnecessaryImport:	UnnecessaryImport: Duplicate import 'org.junit.jupiter.api.Test'
+src/test/java/com/chatter/entity/MessageTest.java:21:	UnnecessaryImport:	UnnecessaryImport: Duplicate import 'org.mockito.InjectMocks'
+src/test/java/com/chatter/entity/MessageTest.java:22:	UnnecessaryImport:	UnnecessaryImport: Duplicate import 'org.mockito.Mock'
+src/test/java/com/chatter/entity/MessageTest.java:24:	UnnecessaryImport:	UnnecessaryImport: Duplicate import 'org.springframework.messaging.simp.SimpMessagingTemplate'
+src/test/java/com/chatter/entity/MessageTest.java:26:	UnnecessaryImport:	UnnecessaryImport: Duplicate import 'com.chatter.controller.ChatController'
+src/test/java/com/chatter/entity/MessageTest.java:27:	UnnecessaryImport:	UnnecessaryImport: Unnecessary import from the current package 'com.chatter.entity.Message'
+src/test/java/com/chatter/entity/MessageTest.java:29:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/chatter/entity/MessageTest.java:29:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/chatter/entity/MessageTest.java:29:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/MessageTest.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/chatter/entity/MessageTest.java:32:	LongVariable:	LongVariable: Avoid excessively long variable names like simpMessagingTemplate
+src/test/java/com/chatter/entity/MessageTest.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/chatter/entity/MessageTest.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/MessageTest.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/MessageTest.java:43:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/MessageTest.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/test/java/com/chatter/entity/MessageTest.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/MessageTest.java:61:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/MessageTest.java:61:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/MessageTest.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/test/java/com/chatter/entity/MessageTest.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/chatter/entity/MessageTest.java:73:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused static import 'org.assertj.core.api.Assertions.assertThat'
+src/test/java/com/chatter/entity/TweetTest.java:5:	UnnecessaryImport:	UnnecessaryImport: Unused static import 'org.junit.jupiter.api.Assertions.assertThrows'
+src/test/java/com/chatter/entity/TweetTest.java:10:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.Optional'
+src/test/java/com/chatter/entity/TweetTest.java:24:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.chatter.entity.Comment'
+src/test/java/com/chatter/entity/TweetTest.java:25:	UnnecessaryImport:	UnnecessaryImport: Unnecessary import from the current package 'com.chatter.entity.Tweet'
+src/test/java/com/chatter/entity/TweetTest.java:29:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/chatter/entity/TweetTest.java:29:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/chatter/entity/TweetTest.java:29:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/TweetTest.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/chatter/entity/TweetTest.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/chatter/entity/TweetTest.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/TweetTest.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/TweetTest.java:43:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/TweetTest.java:43:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/TweetTest.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'commentDTO' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'savedCommentDTO' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:59:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:62:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:63:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/TweetTest.java:67:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/TweetTest.java:67:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/TweetTest.java:69:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweetDTO' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:74:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'savedTweetDTO' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:83:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:85:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:86:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:90:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/TweetTest.java:90:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/TweetTest.java:90:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/TweetTest.java:95:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:98:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:99:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:102:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/TweetTest.java:102:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/TweetTest.java:102:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/TweetTest.java:104:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweetDTO' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:109:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedTweet' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:113:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:116:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:117:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:117:	LawOfDemeter:	LawOfDemeter: Call to `getBody` on foreign value `response` (degree 1)
+src/test/java/com/chatter/entity/TweetTest.java:118:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:118:	LawOfDemeter:	LawOfDemeter: Call to `getBody` on foreign value `response` (degree 1)
+src/test/java/com/chatter/entity/TweetTest.java:125:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/TweetTest.java:125:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/TweetTest.java:125:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/TweetTest.java:127:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweetDTO' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:134:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:136:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:137:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:137:	LawOfDemeter:	LawOfDemeter: Call to `getBody` on foreign value `response` (degree 1)
+src/test/java/com/chatter/entity/TweetTest.java:138:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:138:	LawOfDemeter:	LawOfDemeter: Call to `getBody` on foreign value `response` (degree 1)
+src/test/java/com/chatter/entity/TweetTest.java:143:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/TweetTest.java:143:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/TweetTest.java:143:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/TweetTest.java:145:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweetDTOList' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:146:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweetDTO1' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:151:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweetDTO2' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:155:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tweetList' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:159:	LawOfDemeter:	LawOfDemeter: Call to `getAllTweets` on foreign value `tweetController` (degree 1)
+src/test/java/com/chatter/entity/TweetTest.java:159:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:162:	LawOfDemeter:	LawOfDemeter: Call to `collect` on foreign value `response.getBody().stream().map()` (degree 2)
+src/test/java/com/chatter/entity/TweetTest.java:162:	LawOfDemeter:	LawOfDemeter: Call to `getBody` on foreign value `response` (degree 2)
+src/test/java/com/chatter/entity/TweetTest.java:162:	LawOfDemeter:	LawOfDemeter: Call to `map` on foreign value `response.getBody().stream()` (degree 2)
+src/test/java/com/chatter/entity/TweetTest.java:162:	LawOfDemeter:	LawOfDemeter: Call to `stream` on foreign value `response.getBody()` (degree 2)
+src/test/java/com/chatter/entity/TweetTest.java:162:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'responseDTOList' could be declared final
+src/test/java/com/chatter/entity/TweetTest.java:167:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:168:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:170:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:170:	LawOfDemeter:	LawOfDemeter: Call to `get` on foreign value `responseDTOList` (degree 2)
+src/test/java/com/chatter/entity/TweetTest.java:171:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/TweetTest.java:171:	LawOfDemeter:	LawOfDemeter: Call to `get` on foreign value `responseDTOList` (degree 2)
+src/test/java/com/chatter/entity/UserTest.java:1:	TooManyStaticImports:	TooManyStaticImports: Too many static imports may lead to messy code
+src/test/java/com/chatter/entity/UserTest.java:7:	UnnecessaryImport:	UnnecessaryImport: Unused static import 'org.mockito.Mockito.doNothing'
+src/test/java/com/chatter/entity/UserTest.java:25:	UnnecessaryImport:	UnnecessaryImport: Unnecessary import from the current package 'com.chatter.entity.User'
+src/test/java/com/chatter/entity/UserTest.java:31:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/chatter/entity/UserTest.java:31:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/chatter/entity/UserTest.java:31:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:31:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/test/java/com/chatter/entity/UserTest.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/chatter/entity/UserTest.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/chatter/entity/UserTest.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:45:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:45:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/UserTest.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userDTO' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:47:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "test@example.com" appears 11 times in this file; the first occurrence is on line 47
+src/test/java/com/chatter/entity/UserTest.java:49:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "1234567890" appears 4 times in this file; the first occurrence is on line 49
+src/test/java/com/chatter/entity/UserTest.java:50:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "password" appears 7 times in this file; the first occurrence is on line 50
+src/test/java/com/chatter/entity/UserTest.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:60:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:62:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:63:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:67:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:67:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/UserTest.java:68:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userLoginDTO' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:72:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:77:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:79:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:80:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:84:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:84:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:84:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/UserTest.java:85:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userEmailId' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:94:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:95:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:99:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:99:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:99:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/UserTest.java:100:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userEmailId' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:101:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:105:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:107:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:108:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:113:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:113:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:113:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/UserTest.java:114:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userDTO' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:120:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:128:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:130:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:131:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:135:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:135:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:135:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/UserTest.java:136:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userList' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:138:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user1' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:141:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user2' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:149:	LawOfDemeter:	LawOfDemeter: Call to `getAllUsers` on foreign value `userController` (degree 1)
+src/test/java/com/chatter/entity/UserTest.java:149:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:151:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:152:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:156:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:156:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:156:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/chatter/entity/UserTest.java:156:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testRegisterUser_DuplicateUserFoundException' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/chatter/entity/UserTest.java:157:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userDTO' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:163:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errorMessage' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:166:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'exception' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:167:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/chatter/entity/UserTest.java:173:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:173:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:173:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testUserLogin_UserNotFoundException' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/chatter/entity/UserTest.java:174:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userLoginDTO' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:184:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:184:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:184:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testUserLogin_WrongPasswordException' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/chatter/entity/UserTest.java:185:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userLoginDTO' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:195:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:195:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:195:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testGetUserById_UserNotFoundException' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/chatter/entity/UserTest.java:196:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userEmailId' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:198:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/test/java/com/chatter/entity/UserTest.java:204:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:204:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:204:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testDeleteUserById_UserNotFoundException' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/chatter/entity/UserTest.java:205:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userEmailId' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:214:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/chatter/entity/UserTest.java:214:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/chatter/entity/UserTest.java:214:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testUpdateUserById_UserNotFoundException' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/com/chatter/entity/UserTest.java:215:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userDTO' could be declared final
+src/test/java/com/chatter/entity/UserTest.java:221:	UselessParentheses:	UselessParentheses: Useless parentheses.
